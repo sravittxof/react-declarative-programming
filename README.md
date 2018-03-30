@@ -53,7 +53,7 @@ In our JSX/'Render' code, we don't describe _how_ to update the browser (i.e. "r
 
 This is us interacting in a **declarative** programming manner with React! We neither told it what to explicitly add/delete from the DOM when we wanted something changed, nor did we tell it how to go about changing the DOM.
 
-Doesn't a declarative world sound nice? It does to me! We can trust the computer to do what its supposed to in an efficient manner. More and more of the _how to do something_ can be abstracted away from us. Perhaps one day, we won't need to think about how to get anything we want. Instead, computers will make _all of our decisions for us!_ We won't even need brains anymore!
+Doesn't a declarative world sound nice? It does to me! We can trust the computer to do what its supposed to in an efficient manner. More and more of the _how to do something_ can be abstracted away from us. Perhaps one day, we won't need to think about how to get anything we want. Instead, computers will make _all of our decisions for us!_
 
 ## The bee's knees
 So, why is this so great? **Declarative programming** allows us to focus on what our application should look like — as opposed to being concerned with manually updating DOM, adding and removing classes, and so on. That stuff is all done for us in React: we just tell React what the end result should be. It'll do the heavy lifting for us.
