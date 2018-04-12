@@ -38,15 +38,15 @@ Now, let's frame this in a more 'real world' context. Imagine for a second that 
 
 In an **imperative** world, we'd tell them to open the can of paint, dip their brush in it, and then move the brush in a stroking fashion along the wall. We'd be telling the painter exactly what to do.
 
-In a **declarative** world, we would tell the painter _"I want a house with a big ol' cartoon house horrendously smeared across the side of it...Oh! And I would like you to look like a house while doing it..."_, and she'd get it done! Why? Because the painter knows what to do! We don't need to tell her how to apply paint or how to get in and out of costume.
+In a **declarative** world, we would tell the painter _"I want a house with a big ol' cartoon house horrendously smeared across the side of it...Oh! And I've had a tough week so make my day while doing it..."_, and she'd get it done! Why? Because the painter knows what to do! We don't need to tell her how to apply paint or how to get in and out of costume.
 
-This is similar to how we will interact with React. Let's imagine we have a 'find a hog by weight' component that allows us to filter an array of existing hogs (by weight!). This component can accept a weight to filter by, and displays the matching hog profile pictures in the browser.
+This is similar to how we program with React. Let's imagine we have a 'find a hog by weight' component that allows us to filter an array of existing hogs (by weight!). This component can accept a weight to filter by, and displays the matching hog profile pictures in the browser.
 
 In our JSX/'Render' code, we don't describe _how_ to update the browser (i.e. "remove that `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of _what_ the component should look like once it is finished being prepared, i.e.:
 
 ```html
 <div id="my-hog-world" className="dank-styling">
-  { filteredHogsArray.map(hog => "<li>${hog.name}</li>") }
+  { filteredHogsArray.map(hog => "<img src=${hog.img}>") }
   <!-- ^ e.g. show all my hogs in list elements! -->
 </div>
 ```
@@ -56,7 +56,7 @@ This is us interacting in a **declarative** programming manner with React! We ne
 Doesn't a declarative world sound nice? It does to me! We can trust the computer to do what its supposed to in an efficient manner. More and more of the _how to do something_ can be abstracted away from us. Perhaps one day, we won't need to think about how to get anything we want. Instead, computers will make _all of our decisions for us!_
 
 ## The bee's knees
-So, why is this so great? **Declarative programming** allows us to focus on what our application should look like — as opposed to being concerned with manually updating DOM, adding and removing classes, and so on. That stuff is all done for us in React: we just tell React what the end result should be. It'll do the heavy lifting for us.
+So, why is this so great? **Declarative programming** allows us to focus on what our React application should look like — as opposed to being concerned with manually updating DOM, adding and removing classes, and so on. That stuff is all done for us in React: we just tell React what the end result should be. It'll do the heavy lifting for us.
 
 It's not all sunshine and rainbows though — sometimes the underlying mechanism for transforming our declarative code into actual instructions can suffer from inefficiencies. Fixing this is pretty hard, but luckily, React has done a tremendous job at ensuring that doing something like this is very rarely (or rather, never) necessary.
 
