@@ -38,7 +38,7 @@ Now, let's frame this in a more 'real world' context. Imagine for a second that 
 
 In an **imperative** world, we'd tell them to open the can of paint, dip their brush in it, and then move the brush in a stroking fashion along the wall. We'd be telling the painter exactly what to do.
 
-In a **declarative** world, we would tell the painter _"I want a house with a big ol' cartoon house horrendously smeared across the side of it...Oh! And I've had a tough week so make me life while doing it..."_, and she'd get it done! Why? Because the painter knows what to do! We don't need to tell her how to apply paint or how to get in and out of costume.
+In a **declarative** world, we would tell the painter _"I want a house with a big ol' cartoon house horrendously smeared across the side of it...Oh! And I've had a tough week so make my day while doing it..."_, and she'd get it done! Why? Because the painter knows what to do! We don't need to tell her how to apply paint or how to get in and out of costume.
 
 This is similar to how we program with React. Let's imagine we have a 'find a hog by weight' component that allows us to filter an array of existing hogs (by weight!). This component can accept a weight to filter by, and displays the matching hog profile pictures in the browser.
 
