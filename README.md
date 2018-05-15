@@ -51,7 +51,7 @@ In our code below (which is a special format that React uses), we don't describe
 </div>
 ```
 
-In the example above, we are saying: "When rendered, there should be a div element with img elements for every item in our filteredHogsArray".
+In the example above, we are saying: "When rendered, there should be a `<div>` element with `<img>` elements for every item in our filteredHogsArray".
 
 This is us interacting in a **declarative** programming manner with React! We neither told it what to explicitly add/delete from the DOM when we wanted something changed, nor did we tell it how to go about changing the DOM. This is perfectly acceptable for React! As we explore more going forward, we will see how this code acts as a template and React does the rest.
 
