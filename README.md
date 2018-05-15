@@ -42,7 +42,7 @@ In a **declarative** world, we would tell the painter _"I want a house with a bi
 
 This is similar to how we program with React. Let's imagine we have a 'find a hog by weight' component that allows us to filter an array of existing hogs (by weight!). This component can accept a weight to filter by, and displays the matching hog profile pictures in the browser.
 
-In our JSX/'Render' code, we don't describe _how_ to update the browser (i.e. "remove that `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of _what_ the component should look like once it is finished being prepared, i.e.:
+In our code below (which is a special format that React uses), we don't describe _how_ to update the browser (i.e. "remove that `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of _what_ the component should look like once it is finished being prepared, i.e.:
 
 ```html
 <div id="my-hog-world" className="dank-styling">
@@ -51,7 +51,9 @@ In our JSX/'Render' code, we don't describe _how_ to update the browser (i.e. "r
 </div>
 ```
 
-This is us interacting in a **declarative** programming manner with React! We neither told it what to explicitly add/delete from the DOM when we wanted something changed, nor did we tell it how to go about changing the DOM.
+In the example above, we are saying: "When rendered, there should be a div element with img elements for every item in our filteredHogsArray".
+
+This is us interacting in a **declarative** programming manner with React! We neither told it what to explicitly add/delete from the DOM when we wanted something changed, nor did we tell it how to go about changing the DOM. This is perfectly acceptable for React! As we explore more going forward, we will see how this code acts as a template and React does the rest.
 
 Doesn't a declarative world sound nice? It does to me! We can trust the computer to do what its supposed to in an efficient manner. More and more of the _how to do something_ can be abstracted away from us. Perhaps one day, we won't need to think about how to get anything we want. Instead, computers will make _all of our decisions for us!_
 
