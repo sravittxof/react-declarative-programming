@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lesson, we'll discuss the concept of declarative programming in context of the virtual DOM.  
+In this lesson, we'll discuss the concept of declarative programming in the context of the virtual DOM.  
 
 ## Objectives
 1. Explain the difference between declarative and imperative programming
